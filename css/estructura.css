@@ -1,0 +1,36 @@
+/* Estructura de header*/
+
+.conteiner-flex {
+  display: flex;
+  border: 0.1px solid black;
+}
+
+.header-contenedor {
+  width: 99%;
+  height: 4.375rem;
+  align-items: center;
+  margin: 2% 1%;
+}
+
+.header-contenedor_nav {
+ margin-left: auto;
+}
+
+
+
+/* Establecer las media queries */
+@media (max-width: 768px) {
+
+  .tipo {
+    background-color: aqua;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .tipo {
+    background-color: red;
+  }
+
+}

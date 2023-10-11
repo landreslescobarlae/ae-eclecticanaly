@@ -1,0 +1,38 @@
+@import url(variable.css);
+
+/* Estructura del documento*/
+@import url(estructura.css);
+
+/* Definir el tamaño de fuente base */
+html {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    all: unset;
+}
+
+.tipo {
+    width: 1rem;
+    height: 1rem;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    height: auto
+}
+
+
