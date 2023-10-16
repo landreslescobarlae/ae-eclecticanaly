@@ -2,6 +2,8 @@
 
 .conteiner-flex {
   display: flex;
+  margin: 5%;
+  height: 45.625rem;
   border: 0.1px solid black;
 }
 
@@ -16,6 +18,56 @@
  margin-left: auto;
 }
 
+/* Estructura de main*/
+
+/* Estructura de header_head*/
+
+.main-home_contenedor {
+  max-width: 45rem;
+  height: 45rem;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+/* Estructura de header_body*/
+
+.main-body {
+  margin: 5%;
+  height: 45.625rem;
+}
+
+.body-servicio {
+  margin: 0%;
+}
+
+/* Estructura de header_foot*/
+
+.main-foot {
+  justify-content: baseline;
+}
+
+.foot-linea_tiempo {
+  width: 30rem;
+}
+
+.linea_tiempo-contenedor {
+  width: 10rem;
+  height: 10rem;
+  background-color: aqua;
+}
+
+.foot-llamado {
+  width: 29.375rem;
+}
+
+/* Estructura de footer*/
+
+.footer-conteiner {
+  height: 4.375rem;
+  justify-content: baseline;
+  align-items: baseline;
+}
 
 
 /* Establecer las media queries */
